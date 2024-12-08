@@ -1,0 +1,225 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #081b29;
+  overflow-y: scroll; 
+}
+.header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color:transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+}
+.logo{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ededed;
+}
+.nav a{
+  font-size: 18px;
+  
+  text-decoration: none;
+  font-weight: 500;
+  color: #ededed;
+  margin-left: 35px;
+  transition: .3s;
+}
+.nav a:hover,
+.nav a.active
+{
+  color:rgb(153, 214, 238)
+}
+.content{
+  
+  max-width: 600px;
+  color: #ededed;
+}
+.content h2{
+  font-size: 56px;
+  font-weight: 700;
+}
+.content h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+.content h4{
+  font-size: 16px;
+}
+.boxlogo{
+  background-color: red;
+}
+
+
+.content {
+  margin-left: 20px;  /* Adjust if you want to add some space between text and image */
+  max-width: 50%;  /* Ensures the content doesn't stretch too much */
+  color: white;
+}
+
+.image-container {
+  width: 50%;  /* This will keep the image taking up the left half of the screen */
+}
+
+
+
+.card{
+  background-color: #081b29;
+  width:40%;
+ 
+  color: #ededed;
+}
+.card:hover{
+  background-color: yellowgreen;
+
+}
+
+.home{
+  margin-top: 100px;
+  background-image: url("C:\Users\Nivethaharikrishnan\Desktop\React\portfolio\src\Pages\nivi.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-right: 300px;
+  background-position: right top;
+  padding: 0 10px;
+  
+}
+.section-header {
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: 600;
+  cursor: pointer; /* Indicates it's clickable */
+  color: #ededed; /* Default color */
+  transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.section-header:hover {
+  color: yellowgreen; /* Changes to yellowgreen on hover */
+}
+
+.section-content {
+  margin-top: 10px; /* Space between header and content */
+  color: #ededed;
+}
+
+.card {
+  background-color: #081b29; /* Matches your theme */
+  color: #ededed;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+  
+}
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+header .nav a {
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header .nav a {
+  
+  margin: 0 15px;
+}
+
+section {
+  padding: 20px;
+  height: 100vh; /* Each section will take full viewport height */
+}
+
+#about, #project, #contact {
+  
+  padding: 20px;
+  height: 100vh;
+}
+/* Footer Styles */
+footer {
+  background-color: #041414;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top-left-radius: 150px;}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-container div {
+  margin: 10px 0;
+  width: 30%;
+  min-width: 200px;
+}
+
+.footer-container h4 {
+  margin-bottom: 10px;
+  color: #f9a826;
+}
+
+.footer-container p, .footer-container ul, .footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  margin-bottom: 5px;
+}
+
+.footer-container ul li a:hover {
+  color: #f9a826;
+}
+
+.footer-social a {
+  margin: 0 5px;
+  font-size: 24px;
+}
+
+.footer-social a:hover {
+  color: #f9a826;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  border-top: 1px solid rgb(137, 57, 45);
+  padding-top: 10px;
+  border-radius: 60%;
+}
+.footer-container{
+  height: 150px;
+}
